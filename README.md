@@ -1,13 +1,33 @@
-# Sample Hardhat Project
+# WATCHX_FUTURE NFT Contract Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## Introduction
 
-Try running some of the following tasks:
+This is an NFT contract project built using Hardhat. The project allows users to mint and manage NFTs, adhering to the ERC721 standard.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+## Directory Structure
+
+
+## Prerequisites
+
+Ensure you have the following tools installed:
+
+- [Node.js](https://nodejs.org/) (version 12.x or higher)
+- [Yarn](https://yarnpkg.com/) (you can choose to use npm)
+
+## Install Dependencies
+
+Run the following command in the root directory of the project to install dependencies:
+
+```bash
+yarn install
+```
+## Compile Contracts
+Run the following command in the root directory to compile the contracts:
+```bash
+npx hardhat compile
+```
+## Deploy Contracts
+Use the following command to deploy the contracts:
+```bash
+npx hardhat run scripts/watchx_watchx.js --network <network-name>
 ```
